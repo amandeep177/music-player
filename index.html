@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>spotify clone</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img width="30px" class="invert" src="close.svg " alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img width="120px" class="invert" src="spotify.svg" alt="" />
+                </div>
+                <ul>
+                    <li><img width="22px" class="invert" src="home.svg" alt="home" />HOME</li>
+                    <li><img width="22px" class="invert" src="search.svg" alt="search" /> Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="" />
+                    <h2>Your Library</h2>
+                   
+                </div>
+                <div class="songlist">    
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <span class="Text__TextElement-sc-if376j-0 gYdBJW encore-text-marginal"
+                        data-encore-id="text">Cookies</span>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav flex">
+
+                    <img class="invert hamburger" src="hamburger.svg" alt="" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 6L9 12L15 18" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="16" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                fill="none">
+                                <circle cx="24" cy="24" r="24" fill="#1ed760" />
+
+                                <path d="M16 7L32 24L16 41V7Z" fill="#000000" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d" alt="" />
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div  class="seekbar invert">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+
+                        <div class="songinfo">
+                            
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" class="invert" src="previous.svg" alt="">
+                            <img id="play" class="invert" src="play.svg" alt="">
+                            <img id="next" class="invert" src="forward.svg" alt="">
+                        </div>
+                        <div class="songtime">
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
